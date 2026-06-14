@@ -15,6 +15,7 @@
         ];
         shellHook = ''
           python --version
+          pyright --version
         '';
       };
   };
